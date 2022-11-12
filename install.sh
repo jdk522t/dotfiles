@@ -9,9 +9,11 @@ set -e
 ROOT_PATH=$(pwd -P)
 
 main() {
-    # ask password if needed
+    # ask for password
     sudo echo "" > /dev/null
     package_manager_setup;
+
+    # rust installation
 }
 
 info() {
